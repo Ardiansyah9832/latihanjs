@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+body {
+    background: white;
+    color: white;
+    font-family: Quicksand ;
+}
+.header {
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header .name {
+    color: lime;
+}
+.header .all {
+    color: aqua;
+    font-size: 23px;
+    text-decoration: none;
+}
+.header .all:hover {
+    color: #191970;
+}
+.header li {
+    list-style: none;
+}
+.list {
+    display: flex;
+    gap: 100px;
+}
+.mainter {
+    color: black;
+    font-size: 50px;
+}
+.mainted {
+    color: black;
+}
+.foot {
+    color: #191970;
+    font-size: 25px;
+}
